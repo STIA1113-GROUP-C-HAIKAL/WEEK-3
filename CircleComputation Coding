@@ -1,0 +1,31 @@
+package Exercise1;
+
+public class CircleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//	Data types
+		
+			double radius;
+			double area;
+			double circumference;
+			final double PI = 3.14159265;
+			
+		//	Variables
+			
+			radius = 1.2;
+			area = radius * radius * PI;
+			circumference = 2.0 * radius * PI;
+			
+		// Prints
+			
+			System.out.print("The radius is ");
+			System.out.println(radius);
+			System.out.print("The area is ");
+			System.out.println(area);
+			System.out.print("the circumference is ");
+			System.out.println(circumference);
+	}
+
+}
